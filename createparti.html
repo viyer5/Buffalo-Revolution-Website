@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title></title>
+<meta name="" content="">
+<style>
+	td{
+		font-weight: bold;
+	}
+	table
+	{
+		border:solid orange;
+	}
+</style>
+</head>
+<body bgcolor="rgb(240,240,240)">
+<form method="POST" action="1.html" name="myform">
+	<table border="0" bgcolor="white" width="100%" cellpadding="5">
+		<tr>
+			<td colspan="2" align="center">
+				<h2>Welcome to the Behavorial Medicine Lab</h2>
+				<h4>Create a New Participant</h4>
+			</td>
+		</tr>
+		<tr>
+			<td>Family Id</td>
+			<td><input type="text" name="famid" size="20"/> </td>
+		</tr>
+		<tr>
+			<td>Individual Id</td>
+			<td><input type="text" name="individ" size="20"/> </td>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="txtname" size="20"/> </td>
+		</tr>
+		<tr>
+			<td>Surname</td>
+			<td><input type="text" name="txtsname" size="20"/> </td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td><textarea rows="5" cols="20"></textarea></td>
+		</tr>
+		
+		<tr>
+			<td>Enter Email Id</td>
+			<td><input type="text" name="txtemailid" size="20"/> </td>
+		</tr>
+		<tr>
+			<td>Choose Password</td>
+			<td><input type="password" name="txtpass" size="20"/> </td>
+		</tr>
+		<tr>
+			<td>Confirm Password</td>
+			<td><input type="password" name="txtCpass" size="20"/> </td>
+		</tr>
+		<tr>
+			<td>Sex</td>
+			<td>
+				<input type="radio" name="gender" value="Male"/>Male
+				<input type="radio" name="gender" value="Female"/>Female
+				<input type="radio" name="gender" value="Other"/>Other
+			</td>
+		</tr>
+		<tr>
+			<td>Ethnicity</td>
+			<td>
+			<select name="ethinic">
+			<option>[Select Ethnicity]</option>
+			<option>Hispanic</option>
+			<option>Non-Hispanic</option>
+			<option>Refuse to Answer</option>	
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Race</td>
+			<td>
+			<select name="race">
+			<option>[Select Race]</option>
+			<option>American Indian</option>
+			<option>Black/African-American</option>
+			<option>Asian</option>
+			<option>White</option>
+			<option>Other</option>
+			<option>Refuse to Answer</option>	
+			</select>
+			</td>
+		</tr>
+		<tr>
+		<td>
+			Date of Birth
+		</td>
+			<td>
+				<select name="date">
+					<option>[Select Date]</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+				</select>
+				<select name="Month">
+					<option>[Select Month]</option>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+					<option>Apr</option>
+					<option>May</option>
+				</select>
+				<select name="Year">
+					<option>[Select Year]</option>
+					<option>2001</option>
+					<option>2002</option>
+					<option>2003</option>
+					<option>2004</option>
+					<option>2005</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Height (in inches)</td>
+			<td><input type="text" name="individ" size="20"/> </td>
+		</tr>
+		<tr>
+			<td>Weight (in pounds)</td>
+			<td><input type="text" name="individ" size="20"/> </td>
+		</tr>
+		<tr>
+			<td>BMI</td>
+			<td><input type="text" name="individ" size="20"/> </td>
+		</tr>
+		
+		<tr>
+			<td colspan="2">
+				<hr width="90%"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				Licnese & Agreements
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<textarea rows="5" cols="50" readonly="true">
+Here are Terms & Conditions
+				</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="radio" name="agree"/>I Agree
+				<input type="radio" name="agree"/>I Don't Agree
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<hr width="90%"/>
+			</td>
+		</tr>
+		<tr>
+			<td align="right">
+				<input  type="submit" value="Submit Form"/>
+			</td>
+			<td align="center">
+				<input  type="reset" value="Clear Form"/>
+			</td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>
